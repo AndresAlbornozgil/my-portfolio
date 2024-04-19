@@ -40,28 +40,15 @@ h3 {
     font-size: 24px;
 }
 
-nav {
-
-}
-
-ul {
-
-}
-
-li {
-
-}
-
-a {
-
-}
-
 section {
-    padding: 25px;
 
 }
 
 article {
+
+}
+
+a {
 
 }
 
@@ -79,7 +66,6 @@ footer {
 }
 
 footer ul {
-    padding-top: 15px;
     margin-right: 20px;
     float: right;
     font-size: 20px;
@@ -105,26 +91,6 @@ footer li {
 }
 
 .work {
-
-}
-
-#project-one {
-
-}
-
-#project-two {
-
-}
-
-#project-three {
-
-}
-
-#project-four {
-
-}
-
-#project-five {
 
 }
 
