@@ -1,0 +1,148 @@
+/* Applies changes to everything */
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: monospace, sans-serif
+}
+
+body {
+    background-color: lightgoldenrodyellow;
+}
+
+header {
+    padding: 25px;
+    background-color: lightgoldenrodyellow;
+}
+
+header h1 {
+    display: inline-block;
+    font-size: 48px;
+}
+
+header nav {
+    padding-top: 15px;
+    margin-right: 20px;
+    float: right;
+    font-size: 20px;
+}
+
+header nav li {
+    display: inline-block;
+    margin-left: 25px;
+}
+
+h2 {
+    font-size: 48px;
+}
+
+h3 {
+    font-size: 24px;
+}
+
+nav {
+
+}
+
+ul {
+
+}
+
+li {
+
+}
+
+a {
+
+}
+
+section {
+    padding: 25px;
+
+}
+
+article {
+
+}
+
+img {
+    border: solid 5px;
+}
+
+p {
+
+}
+
+footer {
+    padding: 50px 25px 50px 25px;
+    background-color: lightgoldenrodyellow;
+}
+
+footer ul {
+    padding-top: 15px;
+    margin-right: 20px;
+    float: right;
+    font-size: 20px;
+}
+
+footer li {
+    display: inline-block;
+    margin-left: 25px;
+}
+
+.hero {
+    height: 460px;
+    width: 100%;
+    background-image: url(./steampunk-city-airplane.JPG);
+    background-size: cover;
+    background-position: center;
+    border-top: solid 5px;
+    border-bottom: solid 5px
+}
+
+.about-me {
+    
+}
+
+.work {
+
+}
+
+#project-one {
+
+}
+
+#project-two {
+
+}
+
+#project-three {
+
+}
+
+#project-four {
+
+}
+
+#project-five {
+
+}
+
+#gears {
+    height: 200px;
+    width: 100%;
+    background-image: url(./steampunk-gears.JPG);
+    background-size: cover;
+    background-position: center;
+    border-top: solid 5px;
+    border-bottom: solid 5px;
+}
+
+#contact-me {
+    display: inline-block;
+    font-size: 48px;
+}
+
+#linked-in {
+    font-size: 40px
+}
