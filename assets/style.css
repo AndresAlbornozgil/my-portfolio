@@ -12,22 +12,32 @@ body {
 header {
     display: flex;
     justify-content: space-between;
+    background-color: ;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.858);
 }
 
 header h1 {
     font-size: 48px;
-    padding: 20px 60px;
+    padding: 0px 60px;
+    color: lightgoldenrodyellow;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border: solid;
 }
 
 header ul {
     display: flex;
-    padding: 20px 60px;
+    padding: 0px 60px;
 }
 
 header li {
     font-size: 20px;
     display: flex;
     padding: 20px 10px;
+}
+
+header a {
+    color: lightgoldenrodyellow;
 }
 
 h2 {
@@ -44,7 +54,7 @@ img {
 }
 
 footer {
-    background-color: lightgoldenrodyellow;
+    background-color: rgba(0, 0, 0, 0.858);
     display: flex;
     justify-content: space-between;
     padding: 20px 0 20px 0;
@@ -62,15 +72,18 @@ footer li {
     padding: 20px;
 }
 
+footer a {
+    color: lightgoldenrodyellow;
+}
+
 .hero {
-    height: 450px;
+    height: 500px;
     width: 100%;
     background-image: url(./steampunk-city-airplane.JPG);
     background-size: cover;
     background-position: center;
-    border-top: solid;
-    border-bottom: solid;
     display: flex;
+    border-bottom: solid;
 }
 
 .about-me {
@@ -96,6 +109,7 @@ footer li {
     font-size: 48px;
     display: flex;
     padding: 20px 200px;
+    color: lightgoldenrodyellow;
 }
 
 #linked-in {
