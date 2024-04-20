@@ -1,6 +1,5 @@
 /* Applies changes to everything */
 * {
-    box-sizing: border-box;
     padding: 0;
     margin: 0;
     font-family: monospace, sans-serif
@@ -11,24 +10,24 @@ body {
 }
 
 header {
-    
+    display: flex;
+    justify-content: space-between;
 }
-
 
 header h1 {
     font-size: 48px;
+    padding: 20px 60px;
 }
 
-header nav {
-    
+header ul {
+    display: flex;
+    padding: 20px 60px;
 }
 
-header nav ul {
-
-}
-
-header nav li {
+header li {
     font-size: 20px;
+    display: flex;
+    padding: 20px 10px;
 }
 
 h2 {
@@ -46,34 +45,40 @@ img {
 
 footer {
     background-color: lightgoldenrodyellow;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0 20px 0;
 }
 
 footer ul {
     font-size: 20px;
+    display: flex;
+    padding: 20px 60px;
 }
 
 footer li {
-    
+    font-size: 20px;
+    display: flex;
+    padding: 20px;
 }
 
 .hero {
-    height: 500px;
+    height: 450px;
     width: 100%;
     background-image: url(./steampunk-city-airplane.JPG);
     background-size: cover;
     background-position: center;
-    border-top: solid 5px;
-    border-bottom: solid 5px;
+    border-top: solid;
+    border-bottom: solid;
     display: flex;
-    flex-wrap: wrap;
 }
 
 .about-me {
-    
+    padding: 40px 20px 20px 200px;
 }
 
 .work {
-
+    padding: 20px 20px 60px 200px;
 }
 
 #gears {
@@ -82,18 +87,19 @@ footer li {
     background-image: url(./steampunk-gears.JPG);
     background-size: cover;
     background-position: center;
-    border-top: solid 5px;
-    border-bottom: solid 5px;
+    border-top: solid;
+    border-bottom: solid;
     display: flex;
-    flex-wrap: wrap;
 }
 
 #contact-me {
     font-size: 48px;
+    display: flex;
+    padding: 20px 200px;
 }
 
 #linked-in {
-    font-size: 40px
+
 }
 
 #project-one img {
