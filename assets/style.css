@@ -54,10 +54,9 @@ img {
 }
 
 footer {
-    background-color: rgba(0, 0, 0, 0.858);
     display: flex;
     justify-content: space-between;
-    padding: 20px 0 20px 0;
+    padding: 20px 0 40px 0;
 }
 
 footer ul {
@@ -73,7 +72,7 @@ footer li {
 }
 
 footer a {
-    color: lightgoldenrodyellow;
+    color: black
 }
 
 .hero {
@@ -87,15 +86,15 @@ footer a {
 }
 
 .about-me {
-    padding: 40px 20px 20px 200px;
+    padding: 60px 20px 20px 200px;
 }
 
 .work {
-    padding: 20px 20px 60px 200px;
+    padding: 20px 20px 20px 200px;
 }
 
 #gears {
-    height: 200px;
+    height: 220px;
     width: 100%;
     background-image: url(./steampunk-gears.JPG);
     background-size: cover;
@@ -109,7 +108,7 @@ footer a {
     font-size: 48px;
     display: flex;
     padding: 20px 200px;
-    color: lightgoldenrodyellow;
+    color: black
 }
 
 #linked-in {
