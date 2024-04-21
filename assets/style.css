@@ -11,11 +11,10 @@ body {
 
 header {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
-    background-color: ;
     padding: 10px;
     background-color: rgba(0, 0, 0, 0.858);
-    flex-wrap: wrap;
 }
 
 header h1 {
@@ -43,11 +42,17 @@ header a {
 
 h2 {
     font-size: 48px;
-    display: flex;
+    padding-right: 20px;
+    padding-top: 40px;
 }
 
 h3 {
     font-size: 24px;
+}
+
+p {
+    line-height: 1.25em;
+    letter-spacing: 2px;
 }
 
 img {
@@ -71,7 +76,7 @@ footer li {
 }
 
 footer a {
-    color: black
+    color: black;
 }
 
 .hero {
@@ -85,15 +90,27 @@ footer a {
 }
 
 .about-me {
-    
+    display: flex;
+    justify-content: center;
+    margin-left: 300px;
+    margin-right: 150px;
+}
+
+.about-me p {
+    padding-left: 5%;
+    border-left: solid;
+    padding: 50px 50px;
 }
 
 .work {
-    
+    display: flex;
+    flex-wrap: wrap;
 }
 
 #contact-me {
-    
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 200px;
 }
 
 #gears {
