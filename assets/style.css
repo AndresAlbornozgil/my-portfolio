@@ -15,6 +15,7 @@ header {
     background-color: ;
     padding: 10px;
     background-color: rgba(0, 0, 0, 0.858);
+    flex-wrap: wrap;
 }
 
 header h1 {
@@ -42,6 +43,7 @@ header a {
 
 h2 {
     font-size: 48px;
+    display: flex;
 }
 
 h3 {
@@ -53,22 +55,19 @@ img {
     height: 300px;
 }
 
-footer {
-    display: flex;
-    justify-content: space-between;
-    padding: 20px 0 40px 0;
+footer h2 {
+    font-size: 48px;
+    color: black;
 }
 
 footer ul {
     font-size: 20px;
     display: flex;
-    padding: 20px 60px;
 }
 
 footer li {
     font-size: 20px;
     display: flex;
-    padding: 20px;
 }
 
 footer a {
@@ -86,15 +85,19 @@ footer a {
 }
 
 .about-me {
-    padding: 60px 20px 20px 200px;
+    
 }
 
 .work {
-    padding: 20px 20px 20px 200px;
+    
+}
+
+#contact-me {
+    
 }
 
 #gears {
-    height: 220px;
+    height: 200px;
     width: 100%;
     background-image: url(./steampunk-gears.JPG);
     background-size: cover;
@@ -104,17 +107,6 @@ footer a {
     display: flex;
 }
 
-#contact-me {
-    font-size: 48px;
-    display: flex;
-    padding: 20px 200px;
-    color: black
-}
-
-#linked-in {
-
-}
-
-#project-one img {
+@media screen and (max-width: 768px;) {
     
 }
