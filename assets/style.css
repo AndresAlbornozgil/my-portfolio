@@ -42,8 +42,6 @@ header a {
 
 h2 {
     font-size: 48px;
-    padding-right: 20px;
-    padding-top: 40px;
 }
 
 h3 {
@@ -53,12 +51,22 @@ h3 {
 p {
     line-height: 1.25em;
     letter-spacing: 2px;
+    margin-left: 300px;
+    margin-right: 100px;
+}
+
+div {
+    
 }
 
 img {
     border: solid 5px;
-    height: 300px;
+    width: 460px;
+    height: 200px;
+    margin: 10px;
 }
+
+footer {display: flex;}
 
 footer h2 {
     font-size: 48px;
@@ -91,15 +99,6 @@ footer a {
 
 .about-me {
     display: flex;
-    justify-content: center;
-    margin-left: 300px;
-    margin-right: 150px;
-}
-
-.about-me p {
-    padding-left: 5%;
-    border-left: solid;
-    padding: 50px 50px;
 }
 
 .work {
@@ -107,10 +106,21 @@ footer a {
     flex-wrap: wrap;
 }
 
+.work div {
+    margin-left: 430px;
+    margin-right: 100px;
+    padding right: 200px;
+}
+
+#project-one {
+    width: 960px;
+    height: 400px;
+    
+}
+
 #contact-me {
     display: flex;
     flex-wrap: wrap;
-    margin-left: 200px;
 }
 
 #gears {
