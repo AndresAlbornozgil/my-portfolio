@@ -42,6 +42,7 @@ header a {
 
 h2 {
     font-size: 48px;
+    width: 185px;
 }
 
 h3 {
@@ -50,18 +51,12 @@ h3 {
 
 p {
     line-height: 1.25em;
-    letter-spacing: 2px;
-    margin-left: 300px;
-    margin-right: 100px;
-}
-
-div {
-    
+    letter-spacing: 1px;
 }
 
 img {
     border: solid 5px;
-    width: 460px;
+    width: 435px;
     height: 200px;
     margin: 10px;
 }
@@ -76,15 +71,24 @@ footer h2 {
 footer ul {
     font-size: 20px;
     display: flex;
+    margin-left: 100px;
 }
 
 footer li {
     font-size: 20px;
     display: flex;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+footer div {
+    display: flex;
 }
 
 footer a {
     color: black;
+    display: flex;
+    align-items: center;
 }
 
 .hero {
@@ -99,28 +103,38 @@ footer a {
 
 .about-me {
     display: flex;
+    margin-right: 100px;
+    margin-left: 300px;
+    margin-top: 50px;
+}
+
+.about-me p {
+    margin-left: 50px;
 }
 
 .work {
     display: flex;
-    flex-wrap: wrap;
+    margin-right: 100px;
+    margin-left: 326px;
+    margin-top: 50px;
 }
 
 .work div {
-    margin-left: 430px;
-    margin-right: 100px;
-    padding right: 200px;
+    margin-left: 50px;
 }
 
 #project-one {
-    width: 960px;
+    width: 910px;
     height: 400px;
-    
 }
 
 #contact-me {
     display: flex;
     flex-wrap: wrap;
+    margin-right: 100px;
+    margin-left: 246px;
+    margin-top: 50px;
+    margin-bottom: 50px;
 }
 
 #gears {
