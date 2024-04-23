@@ -11,7 +11,7 @@ body {
 
 header {
     display: flex;
-    flex-flow: row wrap;
+    flex-wrap: wrap;
     justify-content: space-between;
     background-color: rgba(0, 0, 0, 0.858);
 }
@@ -40,6 +40,11 @@ header a {
     color: lightgoldenrodyellow;
 }
 
+img {
+    width: 395.5px;
+    height: 175px;
+}
+
 .hero {
     height: 500px;
     width: 100%;
@@ -48,9 +53,11 @@ header a {
     background-position: center;
     display: flex;
     border-bottom: solid;
+    margin-bottom: 50px;
 }
 
 .about-me {
+    margin-bottom: 50px;
     display: flex;
 }
 
@@ -59,36 +66,51 @@ header a {
 }
 
 .about-me p {
-
+    
 }
 
 .work {
+    margin-bottom: 50px;
     display: flex;
-
 }
 
 .work h2 {
     font-size: 40px;
 }
 
-footer {
+#contact-me {
+    margin-bottom: 50px;
     display: flex;
-    justify-content: space-evenly; 
+    flex-wrap: wrap;
+    justify-content: space-around
+}
+
+#contact-me h2 {
+    font-size: 40px;
+    display: flex;
+    flex-wrap: wrap;
     align-items: center;
 }
 
-footer h2 {
-    font-size: 40px;
-}
-
-footer ul {
+#contact-me div {
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+    align-items: center;
 }
 
-footer li {
+#contact-me ul {
+    display: flex; 
+}
+
+#contact-me li {
+    padding: 20px 10px;
     display: flex;
+    margin: 0 10px 0 10px;
+}
+
+#project-one {
+    width: 800px;
+    height: 350px;
 }
 
 #gears {
