@@ -72,7 +72,7 @@ img {
 /* styles h2 of about-me class */
 .about-me h2 {
     font-size: 40px;
-    padding: 0 50px 0 300px
+    padding: 0 50px 0 300px;
 }
 
 /* styles p of about-me class */
@@ -147,9 +147,10 @@ img {
 }
 
 /* Makes webpage responsive to different screen sizes */
-@media screen and (max-width: 768px;) {
+@media screen and (max-width: 768px) {
+
     body {
         background-color: lightgoldenrodyellow;
         width: fit-content;
-    }
+        };
 }
