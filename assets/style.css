@@ -5,10 +5,13 @@
     font-family: monospace, sans-serif
 }
 
+/* Styles body element */
 body {
     background-color: lightgoldenrodyellow;
+    width: fit-content;
 }
 
+/* Styles header element */
 header {
     display: flex;
     flex-wrap: wrap;
@@ -16,6 +19,7 @@ header {
     background-color: rgba(0, 0, 0, 0.858);
 }
 
+/* Styles h1 of header */
 header h1 {
     font-size: 48px;
     padding: 0px 60px;
@@ -25,26 +29,30 @@ header h1 {
     align-items: center;
 }
 
+/* Styles ul of header */
 header ul {
     display: flex;
+    padding-right: 30px;
 }
 
+/* Styles li of header */
 header li {
     font-size: 20px;
-    padding: 20px 10px;
     display: flex;
-    margin: 0 10px 0 10px;
 }
 
+/* styles a of header */
 header a {
     color: lightgoldenrodyellow;
 }
 
+/* styles image element */
 img {
     width: 395.5px;
     height: 175px;
 }
 
+/* styles hero class */
 .hero {
     height: 500px;
     width: 100%;
@@ -53,68 +61,82 @@ img {
     background-position: center;
     display: flex;
     border-bottom: solid;
-    margin-bottom: 50px;
 }
 
+/* styles about-me class */
 .about-me {
-    margin-bottom: 50px;
     display: flex;
+    padding: 100px 0 50px 0;
 }
 
+/* styles h2 of about-me class */
 .about-me h2 {
     font-size: 40px;
+    padding: 0 50px 0 300px
 }
 
+/* styles p of about-me class */
 .about-me p {
-    
+    padding: 0 100px 0 50px;
+    letter-spacing: 1px;
+    line-height: 1.25em;
 }
 
+/* styles work class */
 .work {
     margin-bottom: 50px;
     display: flex;
+    padding: 25px 0 25px 0;
 }
 
+/* styles h2 of work class */
 .work h2 {
     font-size: 40px;
+    padding: 0 130px 0 320px;
 }
 
+/* styles contact-me id */
 #contact-me {
-    margin-bottom: 50px;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around
+    justify-content: space-evenly;
+    padding: 0 0 70px 0;
+    align-content: center;
 }
 
+/* styles h2 of contact-me id */
 #contact-me h2 {
     font-size: 40px;
     display: flex;
     flex-wrap: wrap;
     align-items: center;
+    padding: 0 0 0 140px;
+    width: 100px;
 }
 
-#contact-me div {
-    display: flex;
+/* styles p and a elements of contact-me id */
+#contact-me p, a {
     flex-wrap: wrap;
     align-items: center;
-}
-
-#contact-me ul {
-    display: flex; 
-}
-
-#contact-me li {
     padding: 20px 10px;
     display: flex;
     margin: 0 10px 0 10px;
 }
 
+/* styles project-one id */
 #project-one {
     width: 800px;
     height: 350px;
 }
 
+/* styles my-picture id */
+#my-picture {
+    border-radius: 50%;
+}
+
+/* styles gears id */
 #gears {
-    height: 200px;
+    height: 150px;
     width: 100%;
     background-image: url(./steampunk-gears.JPG);
     background-size: cover;
@@ -124,6 +146,10 @@ img {
     display: flex;
 }
 
+/* Makes webpage responsive to different screen sizes */
 @media screen and (max-width: 768px;) {
-
+    body {
+        background-color: lightgoldenrodyellow;
+        width: fit-content;
+    }
 }
