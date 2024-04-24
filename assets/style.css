@@ -50,6 +50,7 @@ header a {
 img {
     width: 395.5px;
     height: 175px;
+    border: solid;
 }
 
 /* styles hero class */
@@ -93,6 +94,10 @@ img {
 .work h2 {
     font-size: 40px;
     padding: 0 130px 0 320px;
+}
+
+.work a {
+    margin-left: -8px;
 }
 
 /* styles contact-me id */
