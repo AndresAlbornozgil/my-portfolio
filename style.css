@@ -57,7 +57,7 @@ img {
 .hero {
     height: 500px;
     width: 100%;
-    background-image: url(./steampunk-city-airplane.JPG);
+    background-image: url(./assets/images/steampunk-city-airplane.JPG);
     background-size: cover;
     background-position: center;
     display: flex;
@@ -143,7 +143,7 @@ img {
 #gears {
     height: 150px;
     width: 100%;
-    background-image: url(./steampunk-gears.JPG);
+    background-image: url(./assets/images/steampunk-gears.JPG);
     background-size: cover;
     background-position: center;
     border-top: solid;
