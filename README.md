@@ -17,7 +17,7 @@ This project does not require an installation. However, you are welcome to to ei
 ## Usage
 The idea of completing this project is to create a portfolio with the goal to display my work for visitors so they can have the opportunity to reach out if they would like to work together on future projects.
 
-![image of Horiseon's website](assets/portfolio-cover.JPG)
+![image of portfolio website](assets/portfolio-cover.JPG)
 
 ## Credits
 Andres Albornoz
