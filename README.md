@@ -15,7 +15,7 @@ A portfolio website that displays my work to visitors so they can have the oppor
 This project does not require an installation. However, you are welcome to to either clone the repository and access the project files or fork the repo.
 
 ## Usage
-[on Github Pages](https://andresalbornozgil.github.io/my-portfolio/)
+Deployed [on Github Pages](https://andresalbornozgil.github.io/my-portfolio/)
 
 The idea of completing this project is to create a portfolio with the goal to display my work for visitors so they can have the opportunity to reach out if they would like to work together on future projects.
 
